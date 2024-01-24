@@ -1,4 +1,4 @@
-# Author： 赵星亮
+# Author： zhaoxinliang
 # 基于stable-diffusion-inpainting与stable-diffusion-2-inpainting
 from PIL import Image
 from diffusers import StableDiffusionInpaintPipeline

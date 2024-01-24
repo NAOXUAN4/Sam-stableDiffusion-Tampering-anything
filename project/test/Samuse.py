@@ -3,7 +3,6 @@ from segment_anything import sam_model_registry,SamPredictor
 import torch
 import matplotlib.pyplot as plt
 import numpy as np
-import io
 
 def cv2show(img):
     cv2.imshow("img",img)
