@@ -2,8 +2,11 @@
 ### 简介
 + 使用segment-anything-model对图片指定区域进行分割并生成遮罩
 + 使用stableDiffusionInpainting Pipeline对遮罩区域重绘
-![SAm](examples/1.png)
 
+
+ `#生成遮罩`
+![SAm](examples/1.png)
+ `#重绘遮罩区域`
 ![Diff](examples/2.png)
 
 ### 使用
@@ -18,6 +21,12 @@ git clone https://github.com/facebookresearch/segment-anything.git
 pip install gradio opencv-python matplotlib
 ```
 + 运行"GradioUI.py"
+-在Input points 文本框输入选点坐标，例如:100,200 (x=100,y=200,两组坐标之间用空格分隔)
+-在Input Labels(0 or 1) 输入选点Label，1表示该点为分割物体，0表示该点为背景
+-点击process生成
+-在prompt文本框内输入提示词
+-使用滑杆调整重绘强度
+-点击process生成
 
 
 ### Tips
