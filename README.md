@@ -4,10 +4,12 @@
 + 使用stableDiffusionInpainting Pipeline对遮罩区域重绘
 
 
- `#生成遮罩`
+ `1使用Inpainting管线_.生成遮罩`
 ![SAm](examples/1.png)
- `#重绘遮罩区域`
+ `1使用Inpainting管线_.重绘遮罩区域`
 ![Diff](examples/2.png)
+`2使用InstructPix2Pix管线_自然语言控制修改`
+![Pix2Pix](examples/3.png)
 
 ## 使用
 ### 准备
