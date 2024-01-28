@@ -1,7 +1,7 @@
 # Sam-stableDiffusion-Tampering-anything
 ## 简介
-+ 使用segment-anything-model对图片指定区域进行分割并生成遮罩
-+ 使用stableDiffusionInpainting Pipeline对遮罩区域重绘
++ 可使用Sam+Inpainting管线进行局部特征修改
++ 可使用InstructPix2Pix管线进行基于自然语言提示的全局修改
 
 
  `1使用Inpainting管线_.生成遮罩`
